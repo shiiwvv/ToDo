@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+main{
+    padding: 0px 5px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+header > p{
+    font-size: 20px;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-field{
+width: 40vw;
+    height: 35px;
+    border-radius: 50px;
+        background: transparent;
+    border: 1px solid white;
+    font-size: 15px;
+    color: white;
+}
+
+.submit-button{
+    width: 5vw;
+    height: 35px;
+    border-radius: 20px;
+    background: orange;
+    /* border: 1px solid white; */
+    color: white;
+    font-size: 15px;
+}
+
+.display-tasks{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    align-items: center;
+        gap: 10px;
+    margin-top: 20px;
+}
+
+.task{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 110px;
+}
+
+.butt{
+    width: 60px;
+    height: 21px;
+    background-color: orange;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 10px;
+}
