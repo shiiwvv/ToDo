@@ -48,7 +48,7 @@ width: 40vw;
     color: white;
 }
 
-.submit-button{
+.header-button{
     width: 5vw;
     height: 35px;
     border-radius: 20px;
@@ -69,11 +69,12 @@ width: 40vw;
 .task{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border: 1px solid white;
     border-radius: 20px;
     height: 110px;
+    padding: 5px;
 }
 
 .butt{
@@ -90,4 +91,107 @@ width: 40vw;
     justify-self: center;
     align-items: center;
     gap: 10px;
+}
+
+/* .Open-task{
+    display: none;
+    width: 100%;
+    height: 100%;
+} */
+
+.show-task{
+    display: none;
+    width: 60vw;
+    height: 40vw;
+    position: absolute;
+    left: 20vw;
+    top: 5vh;
+    z-index: 100;
+    background: black;
+    border-radius: 15px;
+    padding:10px 10px;
+}
+
+
+.open{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.opac{
+    opacity: 0.1;
+}
+
+.window-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 12%;
+}
+
+.window-head  h2{
+    font-size: 40px;
+}
+
+
+.Inside-Open{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task-text-container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+.window-content{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: grey;
+    border: none;
+    padding: 5px;
+
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.display-time{
+    display: flex;
+
+}
+
+.display-time-and-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.read-buttons{
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: orange;
+    color: black;
+}
+
+.checked{
+    background-color: red;
 }
